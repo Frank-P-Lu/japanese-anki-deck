@@ -1,0 +1,186 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "1f9c4d1c-56ff-11ec-8c8f-3f50e24c8d91",
+    "deck_config_uuid": "1f9c4d1d-56ff-11ec-8c8f-3f50e24c8d91",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "1f9c4d1d-56ff-11ec-8c8f-3f50e24c8d91",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 100
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Japanese",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "css": "html { overflow: scroll; overflow-x: hidden; }\n/* CONTAINER FOR YOUR CARDS */\n#kard {\n    padding: 0px 0px;\n    max-width: 700px; /* CHANGE CARD SIZE HERE */\n    margin: 0 auto; /* CENTERS THE CARD IN THE MIDDLE OF THE WINDOW */\n    word-wrap: break-word; /* BREAKS UP LONG WORKS */\n}\n\n/* APPLIES TO THE WHOLE CARD */\n.card {\n    font-family: Menlo, baskerville, sans;\n    font-size: 18px; /* FONT SIZE */\n    text-align: center; /* ALIGN TEXT */\n    color: #D7DEE9; /* FONT COLOR */\n    line-height: 1.6em;\n    background-color: #333B45; /* BACKGROUND COLOR */\n}\n/* STYLE FOR CLOZE DELETIONS */\n.cloze, .cloze b, .cloze u, .cloze i { font-weight: bold; color: MediumSeaGreen !important;}\n\n/* STYLE FOR EXTRA PORTION ON BACK OF CARD */\n#extra, #extra i { font-size: 15px; color:#D7DEE9; font-style: italic; }\n\n/* STYLE TAGS TO APPEAR WHEN HOVERING OVER TOP OF CARD */\n.tags { \n    color: #A6ABB9;\n    opacity: 0.75;\n    font-size: 10px; \n    width: 100%;\n    text-align: center;\n    text-transform: uppercase; \n    position: fixed; \n    padding: 0; \n    top:0;  \n    right: 0;}\n.tags:hover { opacity: 1; position: fixed;}\n\n.topic {\n    color: #3366cc;\n    font-size: 16px; \n    width: 100%;\n    text-align: left;\n    text-transform: uppercase; \n}\n\n.description {\n    color: #b3b3cc;\n    font-size: 12px; \n    width: 100%;\n    text-align: right;\n    text-transform: uppercase; \n}\n\n/* IMAGE STYLE */\nimg { display: block; max-width: 100%; max-height: none; margin-left: auto; margin: 10px auto 10px auto;}\ntr {font-size: 12px; }\n\n/* COLOR ACCENTS FOR BOLD-ITALICS-UNDERLINE */\nb { color: #C695C6 !important; } /* BOLD STYLE */\nu { text-decoration: none; color: #5EB3B3;} /* UNDERLINE STYLE */\ni  { color: IndianRed; } /* ITALICS STYLE */\na { color: LightGray !important; text-decoration: none; font-size: 10px; font-style: normal; } /* LINK STYLE */\n\n/* ADJUSTMENT FOR MOBILE DEVICES */\n.mobile .card { color: #D7DEE9; background-color: #333B45; } \n.mobile .tags:hover { opacity: 1; position: relative;}",
+            "flds": [
+                {
+                    "font": "Arimo",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arimo",
+                    "name": "Description",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arimo",
+                    "name": "Topic",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic (and reversed) - adv (Jap)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        2,
+                        3
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "i3wm"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<div id=\"kard\">\n<div style=\"display:none\">\\(\n\n\\)</div>\n<div class=\"tags\">{{Tags}}</div>\n\n<div class=\"topic\">{{Topic}}</div>\n\n<div class=\"description\">{{Description}}</div>\n\n{{Front}}\n</div>"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "<div id=\"kard\">\n<div style=\"display:none\">\\(\n% general\n\\newcommand{\\Z}{\\mathbb{Z}}\n\\newcommand{\\Q}{\\mathbb{Q}}\n\\newcommand{\\N}{\\mathbb{Q}}\n\n% quantum stuff\n\\newcommand{\\tr}{\\textrm{tr}}\n\\newcommand{\\kp}{\\ket{\\psi}}\n\\newcommand{\\bp}{\\bra{\\psi}}\n\\newcommand{\\k}[1]{ \\ket{#1} }\n\\newcommand{\\b}[1]{ \\bra{#1} }\n\\newcommand{\\why}{\\quad \\text{(Why?)}}\n\n% networks\n\\newcommand{\\deg}{\\text{deg}}\n\\newcommand{\\vg}{V(G)}\n\\newcommand{\\eg}{E(G)}\n\\)</div>\n<div class=\"tags\">{{Tags}}</div>\n\n<div class=\"topic\">{{Topic}}</div>\n<div class=\"description\">{{Description}}</div>\n{{Back}}\n</div>\n"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "地理",
+                "ちり<br>Geography",
+                "Chapter 1",
+                "Kanji"
+            ],
+            "guid": "M(c?0qAnP&",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": [
+                "kanji"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "大陸",
+                "たいりく<br>Continent",
+                "Chapter 1",
+                "Kanji"
+            ],
+            "guid": "D`<9uF.9Wk",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": [
+                "kanji"
+            ]
+        }
+    ]
+}
