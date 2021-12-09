@@ -34,5 +34,5 @@ getting in more practice.
 It'll also be good to include any new grammar patterns/vocab as anki cards.
 
 ## todo
-- setup 3-way cards for Kanji/Hiragana/English
+- setup 3-way cards for Kanji/Hiragana/English - DONE!
 - setup kanji plugin if needed
