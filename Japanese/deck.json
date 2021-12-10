@@ -239,6 +239,138 @@
                 }
             ],
             "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "208e5076-599d-11ec-8554-a137e468d776",
+            "css": "html { overflow: scroll; overflow-x: hidden; }\n/* CONTAINER FOR YOUR CARDS */\n#kard {\n    padding: 0px 0px;\n    max-width: 700px; /* CHANGE CARD SIZE HERE */\n    margin: 0 auto; /* CENTERS THE CARD IN THE MIDDLE OF THE WINDOW */\n    word-wrap: break-word; /* BREAKS UP LONG WORKS */\n}\n\n/* APPLIES TO THE WHOLE CARD */\n.card {\n    font-family: Menlo, baskerville, sans;\n    font-size: 18px; /* FONT SIZE */\n    text-align: center; /* ALIGN TEXT */\n    color: #D7DEE9; /* FONT COLOR */\n    line-height: 1.6em;\n    background-color: #333B45; /* BACKGROUND COLOR */\n}\n/* STYLE FOR CLOZE DELETIONS */\n.cloze, .cloze b, .cloze u, .cloze i { font-weight: bold; color: MediumSeaGreen !important;}\n\n/* STYLE FOR EXTRA PORTION ON BACK OF CARD */\n#extra, #extra i { font-size: 15px; color:#D7DEE9; font-style: italic; }\n\n/* STYLE TAGS TO APPEAR WHEN HOVERING OVER TOP OF CARD */\n.tags { \n    color: #A6ABB9;\n    opacity: 0.75;\n    font-size: 10px; \n    width: 100%;\n    text-align: center;\n    text-transform: uppercase; \n    position: relative; \n}\n\n.topic {\n    color: #3366cc;\n    font-size: 16px; \n    width: 100%;\n    text-align: left;\n    text-transform: uppercase; \n}\n\n/* IMAGE STYLE */\nimg { display: block; max-width: 100%; max-height: none; margin-left: auto; margin: 10px auto 10px auto;}\ntr {font-size: 12px; }\n\n/* COLOR ACCENTS FOR BOLD-ITALICS-UNDERLINE */\nb { color: #C695C6 !important; } /* BOLD STYLE */\nu { text-decoration: none; color: #5EB3B3;} /* UNDERLINE STYLE */\ni  { color: IndianRed; } /* ITALICS STYLE */\na { color: LightGray !important; text-decoration: none; font-size: 10px; font-style: normal; } /* LINK STYLE */\n\n/* ADJUSTMENT FOR MOBILE DEVICES */\n.mobile .card { color: #D7DEE9; background-color: #333B45; } ",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Monospace",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "description": "",
+                    "font": "Monospace",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "description": "",
+                    "font": "Monospace",
+                    "name": "Topic",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-adv (Jap)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "thinking_fast_and_slow"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<div id=\"kard\">\n<div style=\"display:none\">\\(\n\n\\)</div>\n<div class=\"tags\">{{Tags}}</div>\n\n<div class=\"topic\">{{Topic}}</div>\n\n{{Front}}\n</div>"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "208e507c-599d-11ec-8554-a137e468d776",
+            "css": "html { overflow: scroll; overflow-x: hidden; }\n/* CONTAINER FOR YOUR CARDS */\n#kard {\n    padding: 0px 0px;\n    max-width: 700px; /* CHANGE CARD SIZE HERE */\n    margin: 0 auto; /* CENTERS THE CARD IN THE MIDDLE OF THE WINDOW */\n    word-wrap: break-word; /* BREAKS UP LONG WORKS */\n}\n\n/* APPLIES TO THE WHOLE CARD */\n.card {\n    font-family: Menlo, baskerville, sans;\n    font-size: 18px; /* FONT SIZE */\n    text-align: center; /* ALIGN TEXT */\n    color: #D7DEE9; /* FONT COLOR */\n    line-height: 1.6em;\n    background-color: #333B45; /* BACKGROUND COLOR */\n}\n/* STYLE FOR CLOZE DELETIONS */\n.cloze, .cloze b, .cloze u, .cloze i { font-weight: bold; color: MediumSeaGreen !important;}\n\n/* STYLE FOR EXTRA PORTION ON BACK OF CARD */\n#extra, #extra i { font-size: 15px; color:#D7DEE9; font-style: italic; }\n\n/* STYLE TAGS TO APPEAR WHEN HOVERING OVER TOP OF CARD */\n.tags { \n    color: #A6ABB9;\n    opacity: 0.75;\n    font-size: 10px; \n    width: 100%;\n    text-align: center;\n    text-transform: uppercase; \n    position: relative; \n}\n\n.topic {\n    color: #3366cc;\n    font-size: 16px; \n    width: 100%;\n    text-align: left;\n    text-transform: uppercase; \n}\n\n/* IMAGE STYLE */\nimg { display: block; max-width: 100%; max-height: none; margin-left: auto; margin: 10px auto 10px auto;}\ntr {font-size: 12px; }\n\n/* COLOR ACCENTS FOR BOLD-ITALICS-UNDERLINE */\nb { color: #C695C6 !important; } /* BOLD STYLE */\nu { text-decoration: none; color: #5EB3B3;} /* UNDERLINE STYLE */\ni  { color: IndianRed; } /* ITALICS STYLE */\na { color: LightGray !important; text-decoration: none; font-size: 10px; font-style: normal; } /* LINK STYLE */\n\n/* ADJUSTMENT FOR MOBILE DEVICES */\n.mobile .card { color: #D7DEE9; background-color: #333B45; } \n.mobile .tags:hover { opacity: 1; position: relative;}",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "DejaVu Sans Mono",
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "description": "",
+                    "font": "DejaVu Sans Mono",
+                    "name": "Back Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "description": "",
+                    "font": "DejaVu Sans Mono",
+                    "name": "Topic",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze-adv (Jap)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "thinking-fast-and-slow"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "<div id=\"kard\">\n\n\n<div class=\"tags\">{{Tags}}</div>\n\n<div class=\"topic\">{{Topic}}</div>\n\n{{cloze:Text}}<br>\n{{Back Extra}}\n</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "<div id=\"kard\">\n<div style=\"display:none\">\\(\n\\)</div>\n\n\n<div class=\"tags\">{{Tags}}</div>\n\n<div class=\"topic\">{{Topic}}</div>\n\n{{cloze:Text}}\n</div>\n\n\n"
+                }
+            ],
+            "type": 1
         }
     ],
     "notes": [
@@ -270,6 +402,45 @@
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": [
                 "kanji"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which one is used for objective things? Which one for subjective things?",
+                "大きい for objective.<br>大きな for subjective.",
+                "大きい　vs　大きな"
+            ],
+            "guid": "bP{x3[{Px;",
+            "note_model_uuid": "208e5076-599d-11ec-8554-a137e468d776",
+            "tags": [
+                "bunpo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "私には大きな夢がある。<br><br>Why is this 大きな instead of 大きい？",
+                "大きな is used for subjective things.",
+                "大きい　vs　大きな"
+            ],
+            "guid": "y.cJSW^}P",
+            "note_model_uuid": "208e5076-599d-11ec-8554-a137e468d776",
+            "tags": [
+                "bunpo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "このシャツはちょっと{{c1::大きい}}です。もっと{{c1::小さい}}イサイズはありますか？",
+                "大きい and 小さい&nbsp;are used for objective things.",
+                "大きい　vs　大きな"
+            ],
+            "guid": "rMZ*[zZk:o",
+            "note_model_uuid": "208e507c-599d-11ec-8554-a137e468d776",
+            "tags": [
+                "bunpo"
             ]
         }
     ]
