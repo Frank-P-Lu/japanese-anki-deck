@@ -58,6 +58,7 @@
     "extendNew": 0,
     "extendRev": 0,
     "media_files": [],
+    "mid": 1638841151425,
     "name": "Japanese",
     "note_models": [
         {
@@ -242,7 +243,7 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "208e5076-599d-11ec-8554-a137e468d776",
+            "crowdanki_uuid": "587d6ec8-6171-11ec-afc9-95abe51d0028",
             "css": "html { overflow: scroll; overflow-x: hidden; }\n/* CONTAINER FOR YOUR CARDS */\n#kard {\n    padding: 0px 0px;\n    max-width: 700px; /* CHANGE CARD SIZE HERE */\n    margin: 0 auto; /* CENTERS THE CARD IN THE MIDDLE OF THE WINDOW */\n    word-wrap: break-word; /* BREAKS UP LONG WORKS */\n}\n\n/* APPLIES TO THE WHOLE CARD */\n.card {\n    font-family: Menlo, baskerville, sans;\n    font-size: 18px; /* FONT SIZE */\n    text-align: center; /* ALIGN TEXT */\n    color: #D7DEE9; /* FONT COLOR */\n    line-height: 1.6em;\n    background-color: #333B45; /* BACKGROUND COLOR */\n}\n/* STYLE FOR CLOZE DELETIONS */\n.cloze, .cloze b, .cloze u, .cloze i { font-weight: bold; color: MediumSeaGreen !important;}\n\n/* STYLE FOR EXTRA PORTION ON BACK OF CARD */\n#extra, #extra i { font-size: 15px; color:#D7DEE9; font-style: italic; }\n\n/* STYLE TAGS TO APPEAR WHEN HOVERING OVER TOP OF CARD */\n.tags { \n    color: #A6ABB9;\n    opacity: 0.75;\n    font-size: 10px; \n    width: 100%;\n    text-align: center;\n    text-transform: uppercase; \n    position: relative; \n}\n\n.topic {\n    color: #3366cc;\n    font-size: 16px; \n    width: 100%;\n    text-align: left;\n    text-transform: uppercase; \n}\n\n/* IMAGE STYLE */\nimg { display: block; max-width: 100%; max-height: none; margin-left: auto; margin: 10px auto 10px auto;}\ntr {font-size: 12px; }\n\n/* COLOR ACCENTS FOR BOLD-ITALICS-UNDERLINE */\nb { color: #C695C6 !important; } /* BOLD STYLE */\nu { text-decoration: none; color: #5EB3B3;} /* UNDERLINE STYLE */\ni  { color: IndianRed; } /* ITALICS STYLE */\na { color: LightGray !important; text-decoration: none; font-size: 10px; font-style: normal; } /* LINK STYLE */\n\n/* ADJUSTMENT FOR MOBILE DEVICES */\n.mobile .card { color: #D7DEE9; background-color: #333B45; } ",
             "flds": [
                 {
@@ -308,7 +309,7 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "208e507c-599d-11ec-8554-a137e468d776",
+            "crowdanki_uuid": "587d6ece-6171-11ec-afc9-95abe51d0028",
             "css": "html { overflow: scroll; overflow-x: hidden; }\n/* CONTAINER FOR YOUR CARDS */\n#kard {\n    padding: 0px 0px;\n    max-width: 700px; /* CHANGE CARD SIZE HERE */\n    margin: 0 auto; /* CENTERS THE CARD IN THE MIDDLE OF THE WINDOW */\n    word-wrap: break-word; /* BREAKS UP LONG WORKS */\n}\n\n/* APPLIES TO THE WHOLE CARD */\n.card {\n    font-family: Menlo, baskerville, sans;\n    font-size: 18px; /* FONT SIZE */\n    text-align: center; /* ALIGN TEXT */\n    color: #D7DEE9; /* FONT COLOR */\n    line-height: 1.6em;\n    background-color: #333B45; /* BACKGROUND COLOR */\n}\n/* STYLE FOR CLOZE DELETIONS */\n.cloze, .cloze b, .cloze u, .cloze i { font-weight: bold; color: MediumSeaGreen !important;}\n\n/* STYLE FOR EXTRA PORTION ON BACK OF CARD */\n#extra, #extra i { font-size: 15px; color:#D7DEE9; font-style: italic; }\n\n/* STYLE TAGS TO APPEAR WHEN HOVERING OVER TOP OF CARD */\n.tags { \n    color: #A6ABB9;\n    opacity: 0.75;\n    font-size: 10px; \n    width: 100%;\n    text-align: center;\n    text-transform: uppercase; \n    position: relative; \n}\n\n.topic {\n    color: #3366cc;\n    font-size: 16px; \n    width: 100%;\n    text-align: left;\n    text-transform: uppercase; \n}\n\n/* IMAGE STYLE */\nimg { display: block; max-width: 100%; max-height: none; margin-left: auto; margin: 10px auto 10px auto;}\ntr {font-size: 12px; }\n\n/* COLOR ACCENTS FOR BOLD-ITALICS-UNDERLINE */\nb { color: #C695C6 !important; } /* BOLD STYLE */\nu { text-decoration: none; color: #5EB3B3;} /* UNDERLINE STYLE */\ni  { color: IndianRed; } /* ITALICS STYLE */\na { color: LightGray !important; text-decoration: none; font-size: 10px; font-style: normal; } /* LINK STYLE */\n\n/* ADJUSTMENT FOR MOBILE DEVICES */\n.mobile .card { color: #D7DEE9; background-color: #333B45; } \n.mobile .tags:hover { opacity: 1; position: relative;}",
             "flds": [
                 {
@@ -412,7 +413,7 @@
                 "大きい　vs　大きな"
             ],
             "guid": "bP{x3[{Px;",
-            "note_model_uuid": "208e5076-599d-11ec-8554-a137e468d776",
+            "note_model_uuid": "587d6ec8-6171-11ec-afc9-95abe51d0028",
             "tags": [
                 "bunpo"
             ]
@@ -425,7 +426,7 @@
                 "大きい　vs　大きな"
             ],
             "guid": "y.cJSW^}P",
-            "note_model_uuid": "208e5076-599d-11ec-8554-a137e468d776",
+            "note_model_uuid": "587d6ec8-6171-11ec-afc9-95abe51d0028",
             "tags": [
                 "bunpo"
             ]
@@ -438,10 +439,374 @@
                 "大きい　vs　大きな"
             ],
             "guid": "rMZ*[zZk:o",
-            "note_model_uuid": "208e507c-599d-11ec-8554-a137e468d776",
+            "note_model_uuid": "587d6ece-6171-11ec-afc9-95abe51d0028",
             "tags": [
                 "bunpo"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "折る",
+                "おる",
+                "to break, to fracture, to break off, to snap off, to pick (e.g. flowers)",
+                "",
+                ""
+            ],
+            "guid": "mu3nZp|?iB",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "合わせる",
+                "あわせる",
+                "to match (rhythm, speed, etc.)",
+                "",
+                ""
+            ],
+            "guid": "b?#f4^yIas",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "枚",
+                "まい",
+                "counter for flat objects (e.g. sheets of paper)",
+                "",
+                ""
+            ],
+            "guid": "h`x`X0U$2!",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "軽い",
+                "かるい",
+                "light (i.e. not heavy), feeling light (i.e. offering little resistance, moving easily)",
+                "",
+                ""
+            ],
+            "guid": "LM^`qsIc)r",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "治る",
+                "なおる",
+                "to get better, to get well, to recover (from an illness), to be cured, to be restored, to heal",
+                "",
+                ""
+            ],
+            "guid": "G`0lzt-2[5",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "線",
+                "せん",
+                "line, stripe",
+                "",
+                ""
+            ],
+            "guid": "p/.tDS,BeV",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ひっくり返す",
+                "ひっくりかえす",
+                "to turn over, to turn upside down, to turn up, to turn inside out, to turn out",
+                "",
+                ""
+            ],
+            "guid": "ArBYiLcP^B",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "閉じる",
+                "とじる",
+                "to close (e.g. book, eyes, meeting, etc.), to shut",
+                "",
+                ""
+            ],
+            "guid": "tqxSvm|@RE",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "生かす",
+                "いかす",
+                "to make (the best) use of, to put to good use, to leverage (skills, attributes, experience, etc.), to capitalise on (experience, etc.)",
+                "",
+                ""
+            ],
+            "guid": "c7NeR*y]F7",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "技術",
+                "ぎじゅつ",
+                "technology, engineering",
+                "",
+                ""
+            ],
+            "guid": "K>#y-|7+z@",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "先",
+                "さき",
+                "point, tip, end, nozzle",
+                "",
+                ""
+            ],
+            "guid": "s|u,L_n*hf",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "通す",
+                "とおす",
+                "to stick through, to force through",
+                "",
+                ""
+            ],
+            "guid": "eBWh=;WtpU",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "火事",
+                "かじ",
+                "fire, conflagration",
+                "",
+                ""
+            ],
+            "guid": "Ng8abX&lm9",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "に関して",
+                "にかんして",
+                "related to, in relation to, as far as ... is concerned",
+                "",
+                ""
+            ],
+            "guid": "It}5j9o_$w",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "個",
+                "こ",
+                "counter for articles",
+                "",
+                ""
+            ],
+            "guid": "l6E?<*>Pb2",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "側",
+                "がわ",
+                "side (of something, or taking someone's side), part",
+                "",
+                ""
+            ],
+            "guid": "O3Z9T@h2zX",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "角",
+                "かく",
+                "angle",
+                "",
+                ""
+            ],
+            "guid": "mN3L+/J`.a",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "特徴",
+                "とくちょう",
+                "feature, trait, characteristic, peculiarity, distinction",
+                "",
+                ""
+            ],
+            "guid": "p!jFoaD!`s",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "植物",
+                "しょくぶつ",
+                "plant, vegetation",
+                "",
+                ""
+            ],
+            "guid": "t^Q)Z=M&lm",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "光",
+                "ひかり",
+                "light",
+                "",
+                ""
+            ],
+            "guid": "mQ!)wJ1kzR",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "手作り",
+                "てづくり",
+                "handmade, homegrown, hand-crafted, homemade",
+                "",
+                ""
+            ],
+            "guid": "p>OFVgkPBt",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "和紙",
+                "わし",
+                "washi, Japanese paper",
+                "",
+                ""
+            ],
+            "guid": "gM#7k18Ou9",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "三角",
+                "さんかく",
+                "triangle, triangular shape",
+                "",
+                ""
+            ],
+            "guid": "iDZeiS.6V(",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "分かれる",
+                "わかれる",
+                "to branch, to fork, to diverge",
+                "",
+                ""
+            ],
+            "guid": "xb=7S$R<7F",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "第一",
+                "だいいち",
+                "first, foremost, number one",
+                "",
+                ""
+            ],
+            "guid": "qQ@6Z>i*7b",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "入院",
+                "にゅういん",
+                "hospitalization, hospitalisation",
+                "",
+                ""
+            ],
+            "guid": "n=904MxVES",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "仲良くする",
+                "なかよく",
+                "on good terms (with), on friendly terms (with), (getting along) well, in harmony, happily, peacefully",
+                "",
+                ""
+            ],
+            "guid": "m:#G~Q)(L0",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "頭",
+                "あたま",
+                "head",
+                "",
+                ""
+            ],
+            "guid": "Q|?!5An{+`",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
         }
     ]
 }
