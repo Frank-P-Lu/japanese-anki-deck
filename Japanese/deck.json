@@ -887,7 +887,10 @@
             "guid": "yY5H}+G%W%",
             "note_model_uuid": "05d9a267-6184-11ec-abe1-001a7dda7113",
             "tags": []
-
+		},
+		{
+            "__type__": "Note",
+            "fields": [
                 "What is the meaning of this sentence?<br><b>終わるか終わらないかのうち</b>に、彼は教室を出た",
                 "〜<b>か</b>〜<b>かのうちに</b><br>He left the classroom as soon as the class ended.",
                 "第２週３日目"
