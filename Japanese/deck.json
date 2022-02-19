@@ -1,13 +1,13 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "1f9c4d1c-56ff-11ec-8c8f-3f50e24c8d91",
-    "deck_config_uuid": "1f9c4d1d-56ff-11ec-8c8f-3f50e24c8d91",
+    "crowdanki_uuid": "62d53391-9125-11ec-a608-001a7dda7113",
+    "deck_config_uuid": "62d55a92-9125-11ec-abee-001a7dda7113",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "1f9c4d1d-56ff-11ec-8c8f-3f50e24c8d91",
+            "crowdanki_uuid": "62d55a92-9125-11ec-abee-001a7dda7113",
             "dyn": false,
             "interdayLearningMix": 0,
             "lapse": {
@@ -33,7 +33,7 @@
                     4,
                     0
                 ],
-                "order": 0,
+                "order": 1,
                 "perDay": 20
             },
             "newGatherPriority": 0,
@@ -47,7 +47,7 @@
                 "hardFactor": 1.2,
                 "ivlFct": 1.0,
                 "maxIvl": 36500,
-                "perDay": 100
+                "perDay": 200
             },
             "reviewOrder": 0,
             "timer": 0
@@ -55,11 +55,10 @@
     ],
     "desc": "",
     "dyn": 0,
-    "extendNew": 20,
+    "extendNew": 0,
     "extendRev": 0,
     "media_files": [],
-    "mid": 1638841151425,
-    "name": "Japanese",
+    "name": "Weekly Japanese",
     "note_models": [
         {
             "__type__": "NoteModel",
@@ -191,138 +190,6 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "587d6ec8-6171-11ec-afc9-95abe51d0028",
-            "css": "html { overflow: scroll; overflow-x: hidden; }\n/* CONTAINER FOR YOUR CARDS */\n#kard {\n    padding: 0px 0px;\n    max-width: 700px; /* CHANGE CARD SIZE HERE */\n    margin: 0 auto; /* CENTERS THE CARD IN THE MIDDLE OF THE WINDOW */\n    word-wrap: break-word; /* BREAKS UP LONG WORKS */\n}\n\n/* APPLIES TO THE WHOLE CARD */\n.card {\n    font-family: Menlo, baskerville, sans;\n    font-size: 18px; /* FONT SIZE */\n    text-align: center; /* ALIGN TEXT */\n    color: #D7DEE9; /* FONT COLOR */\n    line-height: 1.6em;\n    background-color: #333B45; /* BACKGROUND COLOR */\n}\n/* STYLE FOR CLOZE DELETIONS */\n.cloze, .cloze b, .cloze u, .cloze i { font-weight: bold; color: MediumSeaGreen !important;}\n\n/* STYLE FOR EXTRA PORTION ON BACK OF CARD */\n#extra, #extra i { font-size: 15px; color:#D7DEE9; font-style: italic; }\n\n/* STYLE TAGS TO APPEAR WHEN HOVERING OVER TOP OF CARD */\n.tags { \n    color: #A6ABB9;\n    opacity: 0.75;\n    font-size: 10px; \n    width: 100%;\n    text-align: center;\n    text-transform: uppercase; \n    position: relative; \n}\n\n.topic {\n    color: #3366cc;\n    font-size: 16px; \n    width: 100%;\n    text-align: left;\n    text-transform: uppercase; \n}\n\n/* IMAGE STYLE */\nimg { display: block; max-width: 100%; max-height: none; margin-left: auto; margin: 10px auto 10px auto;}\ntr {font-size: 12px; }\n\n/* COLOR ACCENTS FOR BOLD-ITALICS-UNDERLINE */\nb { color: #C695C6 !important; } /* BOLD STYLE */\nu { text-decoration: none; color: #5EB3B3;} /* UNDERLINE STYLE */\ni  { color: IndianRed; } /* ITALICS STYLE */\na { color: LightGray !important; text-decoration: none; font-size: 10px; font-style: normal; } /* LINK STYLE */\n\n/* ADJUSTMENT FOR MOBILE DEVICES */\n.mobile .card { color: #D7DEE9; background-color: #333B45; } ",
-            "flds": [
-                {
-                    "description": "",
-                    "font": "Monospace",
-                    "name": "Front",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                },
-                {
-                    "description": "",
-                    "font": "Monospace",
-                    "name": "Back",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                },
-                {
-                    "description": "",
-                    "font": "Monospace",
-                    "name": "Topic",
-                    "ord": 2,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basic-adv (Jap)-c34a1",
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0,
-                        2
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [
-                "thinking_fast_and_slow"
-            ],
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Card 1",
-                    "ord": 0,
-                    "qfmt": "<div id=\"kard\">\n<div style=\"display:none\">\\(\n\n\\)</div>\n<div class=\"tags\">{{Tags}}</div>\n\n<div class=\"topic\">{{Topic}}</div>\n\n{{Front}}\n</div>"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "587d6ece-6171-11ec-afc9-95abe51d0028",
-            "css": "html { overflow: scroll; overflow-x: hidden; }\n/* CONTAINER FOR YOUR CARDS */\n#kard {\n    padding: 0px 0px;\n    max-width: 700px; /* CHANGE CARD SIZE HERE */\n    margin: 0 auto; /* CENTERS THE CARD IN THE MIDDLE OF THE WINDOW */\n    word-wrap: break-word; /* BREAKS UP LONG WORKS */\n}\n\n/* APPLIES TO THE WHOLE CARD */\n.card {\n    font-family: Menlo, baskerville, sans;\n    font-size: 18px; /* FONT SIZE */\n    text-align: center; /* ALIGN TEXT */\n    color: #D7DEE9; /* FONT COLOR */\n    line-height: 1.6em;\n    background-color: #333B45; /* BACKGROUND COLOR */\n}\n/* STYLE FOR CLOZE DELETIONS */\n.cloze, .cloze b, .cloze u, .cloze i { font-weight: bold; color: MediumSeaGreen !important;}\n\n/* STYLE FOR EXTRA PORTION ON BACK OF CARD */\n#extra, #extra i { font-size: 15px; color:#D7DEE9; font-style: italic; }\n\n/* STYLE TAGS TO APPEAR WHEN HOVERING OVER TOP OF CARD */\n.tags { \n    color: #A6ABB9;\n    opacity: 0.75;\n    font-size: 10px; \n    width: 100%;\n    text-align: center;\n    text-transform: uppercase; \n    position: relative; \n}\n\n.topic {\n    color: #3366cc;\n    font-size: 16px; \n    width: 100%;\n    text-align: left;\n    text-transform: uppercase; \n}\n\n/* IMAGE STYLE */\nimg { display: block; max-width: 100%; max-height: none; margin-left: auto; margin: 10px auto 10px auto;}\ntr {font-size: 12px; }\n\n/* COLOR ACCENTS FOR BOLD-ITALICS-UNDERLINE */\nb { color: #C695C6 !important; } /* BOLD STYLE */\nu { text-decoration: none; color: #5EB3B3;} /* UNDERLINE STYLE */\ni  { color: IndianRed; } /* ITALICS STYLE */\na { color: LightGray !important; text-decoration: none; font-size: 10px; font-style: normal; } /* LINK STYLE */\n\n/* ADJUSTMENT FOR MOBILE DEVICES */\n.mobile .card { color: #D7DEE9; background-color: #333B45; } \n.mobile .tags:hover { opacity: 1; position: relative;}",
-            "flds": [
-                {
-                    "description": "",
-                    "font": "DejaVu Sans Mono",
-                    "name": "Text",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                },
-                {
-                    "description": "",
-                    "font": "DejaVu Sans Mono",
-                    "name": "Back Extra",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                },
-                {
-                    "description": "",
-                    "font": "DejaVu Sans Mono",
-                    "name": "Topic",
-                    "ord": 2,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Cloze-adv (Jap)-c34a1",
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0,
-                        2
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [
-                "thinking-fast-and-slow"
-            ],
-            "tmpls": [
-                {
-                    "afmt": "<div id=\"kard\">\n\n\n<div class=\"tags\">{{Tags}}</div>\n\n<div class=\"topic\">{{Topic}}</div>\n\n{{cloze:Text}}<br>\n{{Back Extra}}\n</div>",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Cloze",
-                    "ord": 0,
-                    "qfmt": "<div id=\"kard\">\n<div style=\"display:none\">\\(\n\\)</div>\n\n\n<div class=\"tags\">{{Tags}}</div>\n\n<div class=\"topic\">{{Topic}}</div>\n\n{{cloze:Text}}\n</div>\n\n\n"
-                }
-            ],
-            "type": 1
-        },
-        {
-            "__type__": "NoteModel",
             "crowdanki_uuid": "05d9a267-6184-11ec-abe1-001a7dda7113",
             "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
             "flds": [
@@ -389,6 +256,57 @@
                 }
             ],
             "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "62d645b6-9125-11ec-90a8-001a7dda7113",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1
         }
     ],
     "notes": [
@@ -398,15 +316,13 @@
                 "地理",
                 "ちり",
                 "Geography",
-                "Chapter 1",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"102px\" height=\"75px\" viewBox=\"0 0 102 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">ち</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">り</text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "M(c?0qAnP&",
+            "guid": "ASRT$Ec[#k",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
-            "tags": [
-                "kanji"
-            ]
+            "tags": []
         },
         {
             "__type__": "Note",
@@ -414,54 +330,13 @@
                 "大陸",
                 "たいりく",
                 "Continent",
-                "Chapter 1",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"172px\" height=\"75px\" viewBox=\"0 0 172 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">た</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">い</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">り</text><text x=\"110\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">く</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 121,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"156\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"156\" cy=\"5\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "D`<9uF.9Wk",
+            "guid": "D|M4*sQb3g",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
-            "tags": [
-                "kanji"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Which one is used for objective things? Which one for subjective things?",
-                "大きい for objective.<br>大きな for subjective.",
-                "大きい　vs　大きな"
-            ],
-            "guid": "bP{x3[{Px;",
-            "note_model_uuid": "587d6ec8-6171-11ec-afc9-95abe51d0028",
-            "tags": [
-                "bunpo"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "私には大きな夢がある。<br><br>Why is this 大きな instead of 大きい？",
-                "大きな is used for subjective things.",
-                "大きい　vs　大きな"
-            ],
-            "guid": "y.cJSW^}P",
-            "note_model_uuid": "587d6ec8-6171-11ec-afc9-95abe51d0028",
-            "tags": [
-                "bunpo"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "このシャツはちょっと{{c1::大きい}}です。もっと{{c1::小さい}}イサイズはありますか？",
-                "大きい and 小さい&nbsp;are used for objective things.",
-                "大きい　vs　大きな"
-            ],
-            "guid": "rMZ*[zZk:o",
-            "note_model_uuid": "587d6ece-6171-11ec-afc9-95abe51d0028",
-            "tags": [
-                "bunpo"
-            ]
+            "tags": []
         },
         {
             "__type__": "Note",
@@ -469,11 +344,11 @@
                 "折る",
                 "おる",
                 "to break, to fracture, to break off, to snap off, to pick (e.g. flowers)",
-                "Chapter 12",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"102px\" height=\"75px\" viewBox=\"0 0 102 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">お</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">る</text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "mu3nZp|?iB",
+            "guid": "y$DuX*CU5h",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -483,11 +358,11 @@
                 "合わせる",
                 "あわせる",
                 "to match (rhythm, speed, etc.)",
-                "Chapter 12",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"172px\" height=\"75px\" viewBox=\"0 0 172 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">あ</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">わ</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">せ</text><text x=\"110\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">る</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 121,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"156\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"156\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "b?#f4^yIas",
+            "guid": "AnZe<p]bHy",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -497,11 +372,11 @@
                 "枚",
                 "まい",
                 "counter for flat objects (e.g. sheets of paper)",
-                "Chapter 12",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"102px\" height=\"75px\" viewBox=\"0 0 102 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\"></text></svg><br><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\"><br></text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 51,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"3.25\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#fff;\"></circle><!-- accent_end -->"
+                ""
             ],
-            "guid": "h`x`X0U$2!",
+            "guid": "ckgDYd@fn2",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -511,11 +386,11 @@
                 "軽い",
                 "かるい",
                 "light (i.e. not heavy), feeling light (i.e. offering little resistance, moving easily)",
-                "Chapter 12",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"137px\" height=\"75px\" viewBox=\"0 0 137 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">か</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">る</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">い</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "LM^`qsIc)r",
+            "guid": "E5av7i|`DC",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -525,11 +400,11 @@
                 "治る",
                 "なおる",
                 "to get better, to get well, to recover (from an illness), to be cured, to be restored, to heal",
-                "Chapter 12",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"137px\" height=\"75px\" viewBox=\"0 0 137 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">な</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">お</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">る</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "G`0lzt-2[5",
+            "guid": "l&ybY!}`M8",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -539,11 +414,11 @@
                 "線",
                 "せん",
                 "line, stripe",
-                "Chapter 12",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"102px\" height=\"75px\" viewBox=\"0 0 102 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">せ</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">ん</text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "p/.tDS,BeV",
+            "guid": "PAY58#KGts",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -552,12 +427,12 @@
             "fields": [
                 "ひっくり返す",
                 "ひっくりかえす",
-                "to turn over, to turn upside down, to turn up, to turn inside out, to turn out",
-                "Chapter 12",
+                "to turn over, to turn upside down",
+                "",
                 "Kanji",
-                "<!-- user_accent_start --><svg class=\"pitch\" width=\"242px\" height=\"75px\" viewBox=\"0 0 242 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">ひ</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">っ</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">く</text><text x=\"110\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">り</text><text x=\"145\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">か</text><text x=\"180\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">え</text><text x=\"215\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">す</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 51,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 86,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 121,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 156,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 191,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"86\" cy=\"5\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"121\" cy=\"5\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"156\" cy=\"5\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"191\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"226\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle></svg><!-- user_accent_end -->"
+                ""
             ],
-            "guid": "ArBYiLcP^B",
+            "guid": "oM5w*pGUM0",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -566,12 +441,12 @@
             "fields": [
                 "閉じる",
                 "とじる",
-                "to close (e.g. book, eyes, meeting, etc.), to shut",
-                "Chapter 12",
+                "to close (e.g. book, eyes, meeting, etc.)",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"137px\" height=\"75px\" viewBox=\"0 0 137 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">と</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">じ</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">る</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "tqxSvm|@RE",
+            "guid": "Pf4}mYG0-q",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -580,12 +455,12 @@
             "fields": [
                 "生かす",
                 "いかす",
-                "to make (the best) use of, to put to good use, to leverage (skills, attributes, experience, etc.), to capitalise on (experience, etc.)",
-                "Chapter 12",
+                "to make (the best) use of, to put to good use, to leverage (skills, attributes, experience, etc.)",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"137px\" height=\"75px\" viewBox=\"0 0 137 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">い</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">か</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">す</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "c7NeR*y]F7",
+            "guid": "n]qzti&E;l",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -595,11 +470,11 @@
                 "技術",
                 "ぎじゅつ",
                 "technology, engineering",
-                "Chapter 12",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"137px\" height=\"75px\" viewBox=\"0 0 137 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">ぎ</text><text x=\"35\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">じ</text><text x=\"52\" y=\"67.5\" style=\"font-size:14px;font-family:sans-serif;fill:#000;\">ゅ</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">つ</text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "K>#y-|7+z@",
+            "guid": "o=zCAfIHm)",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -608,12 +483,12 @@
             "fields": [
                 "先",
                 "さき",
-                "point, tip, end, nozzle",
-                "Chapter 12",
+                "point, tip",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"102px\" height=\"75px\" viewBox=\"0 0 102 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">さ</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">き</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"86\" cy=\"5\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "s|u,L_n*hf",
+            "guid": "E^v>X+wEyG",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -623,11 +498,11 @@
                 "通す",
                 "とおす",
                 "to stick through, to force through",
-                "Chapter 12",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"137px\" height=\"75px\" viewBox=\"0 0 137 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">と</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">お</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">す</text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "eBWh=;WtpU",
+            "guid": "vAN^(TY4l5",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -636,12 +511,12 @@
             "fields": [
                 "火事",
                 "かじ",
-                "fire, conflagration",
-                "Chapter 12",
+                "fire",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"102px\" height=\"75px\" viewBox=\"0 0 102 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">か</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">じ</text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "Ng8abX&lm9",
+            "guid": "j=OE*iCB=c",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -650,12 +525,12 @@
             "fields": [
                 "に関して",
                 "にかんして",
-                "related to, in relation to, as far as ... is concerned",
-                "Chapter 12",
+                "related to, in relation to",
+                "",
                 "Kanji",
-                "<!-- user_accent_start --><svg class=\"pitch\" width=\"172px\" height=\"75px\" viewBox=\"0 0 172 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">に</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">か</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">ん</text><text x=\"110\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">し</text><text x=\"145\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">て</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 51,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 86,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 121,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"156\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle></svg><!-- user_accent_end -->"
+                ""
             ],
-            "guid": "It}5j9o_$w",
+            "guid": "FjCcnHlXG)",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -665,11 +540,11 @@
                 "個",
                 "こ",
                 "counter for articles",
-                "Chapter 12",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"67px\" height=\"75px\" viewBox=\"0 0 67 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">こ</text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "l6E?<*>Pb2",
+            "guid": "w~ivK<M`9P",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -678,12 +553,12 @@
             "fields": [
                 "側",
                 "がわ",
-                "side (of something, or taking someone's side), part",
-                "Chapter 12",
+                "side (of something, or taking someone's side)",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"102px\" height=\"75px\" viewBox=\"0 0 102 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">が</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">わ</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"86\" cy=\"5\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "O3Z9T@h2zX",
+            "guid": "jk6Q+X2}v9",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -692,12 +567,12 @@
             "fields": [
                 "角",
                 "かど",
-                "corner; edge​, (street) corner; turning​",
-                "Chapter 12",
+                "corner",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"102px\" height=\"75px\" viewBox=\"0 0 102 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">か</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">ど</text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "mN3L+/J`.a",
+            "guid": "bb99CtqJL~",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -706,12 +581,12 @@
             "fields": [
                 "特徴",
                 "とくちょう",
-                "feature, trait, characteristic, peculiarity, distinction",
-                "Chapter 12",
+                "feature,&nbsp;characteristic",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"172px\" height=\"75px\" viewBox=\"0 0 172 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">と</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">く</text><text x=\"70\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">ち</text><text x=\"87\" y=\"67.5\" style=\"font-size:14px;font-family:sans-serif;fill:#000;\">ょ</text><text x=\"110\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">う</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 121,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"156\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"156\" cy=\"5\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "p!jFoaD!`s",
+            "guid": "wi&`<^,1`w",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -720,12 +595,12 @@
             "fields": [
                 "植物",
                 "しょくぶつ",
-                "plant, vegetation",
-                "Chapter 12",
+                "plant",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"172px\" height=\"75px\" viewBox=\"0 0 172 75\"><text x=\"0\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">し</text><text x=\"17\" y=\"67.5\" style=\"font-size:14px;font-family:sans-serif;fill:#000;\">ょ</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">く</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">ぶ</text><text x=\"110\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">つ</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 121,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"156\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"156\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "t^Q)Z=M&lm",
+            "guid": "Dt<n|~1T*O",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -735,11 +610,11 @@
                 "光",
                 "ひかり",
                 "light",
-                "Chapter 12",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"137px\" height=\"75px\" viewBox=\"0 0 137 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">ひ</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">か</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">り</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "mQ!)wJ1kzR",
+            "guid": "F``NeslfW!",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -748,12 +623,12 @@
             "fields": [
                 "手作り",
                 "てづくり",
-                "handmade, homegrown, hand-crafted, homemade",
-                "Chapter 12",
+                "handmade",
+                "",
                 "Kanji",
-                "<!-- user_accent_start --><svg class=\"pitch\" width=\"137px\" height=\"75px\" viewBox=\"0 0 137 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">て</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">づ</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">く</text><text x=\"110\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">り</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 51,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 86,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle></svg><!-- user_accent_end -->"
+                ""
             ],
-            "guid": "p>OFVgkPBt",
+            "guid": "LK+)z7T*4x",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
             "tags": []
         },
@@ -762,133 +637,13 @@
             "fields": [
                 "和紙",
                 "わし",
-                "washi, Japanese paper",
-                "Chapter 12",
+                "Japanese paper, washi",
+                "",
                 "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"102px\" height=\"75px\" viewBox=\"0 0 102 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">わ</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">し</text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                ""
             ],
-            "guid": "gM#7k18Ou9",
+            "guid": "x9YI;o(LB}",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "三角",
-                "さんかく",
-                "triangle, triangular shape",
-                "Chapter 12",
-                "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"172px\" height=\"75px\" viewBox=\"0 0 172 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">さ</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">ん</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">か</text><text x=\"110\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">く</text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 121,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"156\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"156\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
-            ],
-            "guid": "iDZeiS.6V(",
-            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "分かれる",
-                "わかれる",
-                "to branch, to fork, to diverge",
-                "Chapter 12",
-                "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"172px\" height=\"75px\" viewBox=\"0 0 172 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">わ</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">か</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">れ</text><text x=\"110\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">る</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 121,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"156\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"156\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
-            ],
-            "guid": "xb=7S$R<7F",
-            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "第一",
-                "だいいち",
-                "first, foremost, number one",
-                "Chapter 12",
-                "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"172px\" height=\"75px\" viewBox=\"0 0 172 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">だ</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">い</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">い</text><text x=\"110\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">ち</text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 121,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"156\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"156\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
-            ],
-            "guid": "qQ@6Z>i*7b",
-            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "入院",
-                "にゅういん",
-                "hospitalization, hospitalisation",
-                "Chapter 12",
-                "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"172px\" height=\"75px\" viewBox=\"0 0 172 75\"><text x=\"0\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">に</text><text x=\"17\" y=\"67.5\" style=\"font-size:14px;font-family:sans-serif;fill:#000;\">ゅ</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">う</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">い</text><text x=\"110\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">ん</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 121,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"156\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"156\" cy=\"5\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
-            ],
-            "guid": "n=904MxVES",
-            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "仲良くする",
-                "なかよくする",
-                "on good terms (with), on friendly terms (with), (getting along) well, in harmony, happily, peacefully",
-                "Chapter 12",
-                "Kanji",
-                "<!-- user_accent_start --><svg class=\"pitch\" width=\"207px\" height=\"75px\" viewBox=\"0 0 207 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">な</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">か</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">よ</text><text x=\"110\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">く</text><text x=\"145\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">す</text><text x=\"180\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">る</text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 51,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 86,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 121,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><path d=\"m 156,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\"></path><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"156\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle><circle r=\"5\" cx=\"191\" cy=\"30\" style=\"opacity:1;fill:#000;\"></circle></svg><!-- user_accent_end -->"
-            ],
-            "guid": "m:#G~Q)(L0",
-            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "頭",
-                "あたま",
-                "head",
-                "Chapter 12",
-                "Kanji",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"137px\" height=\"75px\" viewBox=\"0 0 137 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">あ</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">た</text><text x=\"75\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">ま</text><path d=\"m 16,30 35,-25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,5 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 86,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"121\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
-            ],
-            "guid": "Q|?!5An{+`",
-            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is the meaning of this sentence?<br><b>終わるか終わらないかのうち</b>に、彼は教室を出た",
-                "〜<b>か</b>〜<b>かのうちに</b><br>He left the classroom as soon as the class ended.",
-                "第２週３日目"
-            ],
-            "guid": "KWD4KwL*@^",
-            "note_model_uuid": "587d6ec8-6171-11ec-afc9-95abe51d0028",
-            "tags": [
-                "grammar"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "布団に{{c1::入るか入らないかのうちに}}眠ってしまう。<br>I fell fast asleep <b>the moment</b> I got under the covers.",
-                "〜<b>か</b>〜<b>かのうちに</b>",
-                "第２週３日目"
-            ],
-            "guid": "K;(Gh9BN$I",
-            "note_model_uuid": "587d6ece-6171-11ec-afc9-95abe51d0028",
-            "tags": [
-                "grammar"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "光と明かりの違いは何ですか？",
-                "光：(Natural / talking about light itself) Eg: 太陽の光<br>明かり：(Manmade / indirect light) ろうそくの明かり"
-            ],
-            "guid": "yY5H}+G%W%",
-            "note_model_uuid": "05d9a267-6184-11ec-abe1-001a7dda7113",
             "tags": []
         },
         {
@@ -898,11 +653,145 @@
                 "れい",
                 "Example",
                 "",
-                "",
-                "<!-- accent_start --><svg class=\"pitch\" width=\"102px\" height=\"75px\" viewBox=\"0 0 102 75\"><text x=\"5\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">れ</text><text x=\"40\" y=\"67.5\" style=\"font-size:20px;font-family:sans-serif;fill:#000;\">い</text><path d=\"m 16,5 35,25\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><path d=\"m 51,30 35,0\" style=\"fill:none;stroke:#000;stroke-width:1.5;\" /><circle r=\"5\" cx=\"16\" cy=\"5\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"51\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"5\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#000;\" /><circle r=\"3.25\" cx=\"86\" cy=\"30\" style=\"opacity:1;fill:#fff;\"/></svg><!-- accent_end -->"
+                "Kanji",
+                ""
             ],
-            "guid": "w!dq_)9GVT",
+            "guid": "itiqB~G<36",
             "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "頭",
+                "あたま",
+                "head",
+                "",
+                "Kanji",
+                ""
+            ],
+            "guid": "BfJoU?UQcu",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "仲良くする",
+                "なかよくする",
+                "on good terms (with), friendly with",
+                "",
+                "Kanji",
+                ""
+            ],
+            "guid": "lt;|8E>T2i",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "入院",
+                "にゅういん",
+                "hospitalization",
+                "",
+                "Kanji",
+                ""
+            ],
+            "guid": "y-]>@j6$Cz",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "第一",
+                "だいいち",
+                "first",
+                "",
+                "Kanji",
+                ""
+            ],
+            "guid": "M1vnVyT7.1",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "分かれる",
+                "わかれる",
+                "to branch, to fork, to diverge",
+                "",
+                "Kanji",
+                ""
+            ],
+            "guid": "p_bfx|`+{j",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "三角",
+                "さんかく",
+                "triangle",
+                "",
+                "Kanji",
+                ""
+            ],
+            "guid": "qG8/UENPVH",
+            "note_model_uuid": "1f9c4d20-56ff-11ec-8c8f-3f50e24c8d91",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "大きい　vs　大きな<br>Which one is used for objective things? Which one for subjective things?",
+                "大きい for objective.&lt;br&gt;大きな for subjective."
+            ],
+            "guid": "c.3kP%i&G1",
+            "note_model_uuid": "05d9a267-6184-11ec-abe1-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "私には大きな夢がある。&lt;br&gt;&lt;br&gt;Why is this 大きな instead of 大きい？",
+                "大きな is used for subjective things."
+            ],
+            "guid": "t]OVu~{UY{",
+            "note_model_uuid": "05d9a267-6184-11ec-abe1-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the meaning of this sentence?&lt;br&gt;&lt;b&gt;終わるか終わらないかのうち&lt;/b&gt;に、彼は教室を出た",
+                "〜&lt;b&gt;か&lt;/b&gt;〜&lt;b&gt;かのうちに&lt;/b&gt;&lt;br&gt;He left the classroom as soon as the class ended."
+            ],
+            "guid": "s_gU^l`O|M",
+            "note_model_uuid": "05d9a267-6184-11ec-abe1-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "光と明かりの違いは何ですか？",
+                "光：(Natural / talking about light itself) Eg: 太陽の光&lt;br&gt;明かり：(Manmade / indirect light) ろうそくの明かり"
+            ],
+            "guid": "Exw=SG_gyB",
+            "note_model_uuid": "05d9a267-6184-11ec-abe1-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "布団に{{c1::入るか入らないかのうちに}}眠ってしまう。I fell fast asleep the moment I got under the covers.",
+                "〜か(negative)~かのうちに"
+            ],
+            "guid": "zX#d3FGAwG",
+            "note_model_uuid": "62d645b6-9125-11ec-90a8-001a7dda7113",
             "tags": []
         }
     ]
