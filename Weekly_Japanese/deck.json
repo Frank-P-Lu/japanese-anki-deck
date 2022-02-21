@@ -820,6 +820,58 @@
             "tags": [
                 "grammar"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "私はお酒を飲むわけには行かない<br>Does this imply the speaker is a weak drinker?",
+                "No. It implies that they cannot drink for some reason (eg. they have come by car).",
+                "わけにはいかない"
+            ],
+            "guid": "NC%}5G6D1u",
+            "note_model_uuid": "6a945961-92ef-11ec-9acb-d7402923c73b",
+            "tags": [
+                "grammar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the difference in nuance between わけにはいかない　and できない？",
+                "わけにはいかない: thinking from general knowledge, socially accepted ideas, or past experience, something cannot be done.&nbsp;<br><br>Eg.いくらお金をもらっても、お宅の息子さんを不正に大学させるわけにはいきません。<br>However much money you give me, I can't dishonestly allow your son to pass into this school.",
+                "わけにはいかない"
+            ],
+            "guid": "bM-<!^CD?a",
+            "note_model_uuid": "6a945961-92ef-11ec-9acb-d7402923c73b",
+            "tags": [
+                "grammar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does this sentence mean?<br><br>さんざん悩んだ<b>あげく</b>、彼には手紙で謝ることにした。",
+                "After worrying and worrying, I decided to apologize to him in a letter.",
+                "あげく"
+            ],
+            "guid": "n(Hk9^~z1P",
+            "note_model_uuid": "6a945961-92ef-11ec-9acb-d7402923c73b",
+            "tags": [
+                "grammar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When is あげく used?&nbsp;",
+                "Used when the expression after あげく is the result after the previous state has continued long enough. Often, it involves mental burden or nuisance.",
+                "あげく"
+            ],
+            "guid": "t4rr,:`vI9",
+            "note_model_uuid": "6a945961-92ef-11ec-9acb-d7402923c73b",
+            "tags": [
+                "grammar"
+            ]
         }
     ]
 }
